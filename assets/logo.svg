@@ -35,7 +35,6 @@
     <g transform="translate(126 52) rotate(-14)">
       <circle cx="86" cy="76" r="72" fill="url(#lens)" stroke="#ecfeff" stroke-width="12"/>
       <circle cx="65" cy="48" r="17" fill="#ffffff" opacity="0.58"/>
-      <path d="M134 124 L183 173" fill="none" stroke="#ecfeff" stroke-width="22" stroke-linecap="round"/>
     </g>
   </g>
 
