@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">AVR ASM Revelator logo</title>
+  <desc id="desc">A magnifying glass inspecting AVR assembly text beside the AVR ASM Revelator name.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10233f"/>
+      <stop offset="0.55" stop-color="#173b52"/>
+      <stop offset="1" stop-color="#0d1a2e"/>
+    </linearGradient>
+    <linearGradient id="lens" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d7fbff" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#57c7e8" stop-opacity="0.38"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4ee7b7"/>
+      <stop offset="1" stop-color="#ffd166"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#06111f" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="36" fill="url(#bg)"/>
+  <path d="M0 268 C170 214 292 331 472 274 C636 222 720 118 894 151 C1032 177 1102 98 1200 74 L1200 360 L0 360 Z" fill="#0a1526" opacity="0.52"/>
+
+  <g transform="translate(72 46)" filter="url(#shadow)">
+    <rect x="0" y="0" width="300" height="240" rx="22" fill="#071522" stroke="#2e6f84" stroke-width="3"/>
+    <rect x="20" y="22" width="260" height="196" rx="12" fill="#0d2030" stroke="#1f5367" stroke-width="2"/>
+    <g font-family="Consolas, 'Courier New', monospace" font-size="21" fill="#c8eef4">
+      <text x="38" y="61">0042: e0e8  ldi r30,0x08</text>
+      <text x="38" y="98" fill="#7ee3bd">0044: b7f8  in  r31,0x3f</text>
+      <text x="38" y="135">0046: 920f  push r0</text>
+      <text x="38" y="172" fill="#ffd166">0048: cff7  rjmp .L2</text>
+    </g>
+    <g transform="translate(126 52) rotate(-14)">
+      <circle cx="86" cy="76" r="72" fill="url(#lens)" stroke="#ecfeff" stroke-width="12"/>
+      <circle cx="65" cy="48" r="17" fill="#ffffff" opacity="0.58"/>
+      <path d="M134 124 L183 173" fill="none" stroke="#ecfeff" stroke-width="22" stroke-linecap="round"/>
+      <path d="M157 146 L198 187" fill="none" stroke="#4ee7b7" stroke-width="16" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <g transform="translate(424 72)">
+    <text x="0" y="62" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="800" fill="#f3fbff">AVR ASM</text>
+    <text x="0" y="132" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="800" fill="url(#accent)">Revelator</text>
+    <text x="0" y="218" font-family="Segoe UI, Arial, sans-serif" font-size="26" fill="#b7d8df">Inspect AVR compiler output. Find the patterns. Keep control.</text>
+  </g>
+</svg>
