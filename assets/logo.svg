@@ -36,7 +36,6 @@
       <circle cx="86" cy="76" r="72" fill="url(#lens)" stroke="#ecfeff" stroke-width="12"/>
       <circle cx="65" cy="48" r="17" fill="#ffffff" opacity="0.58"/>
       <path d="M134 124 L183 173" fill="none" stroke="#ecfeff" stroke-width="22" stroke-linecap="round"/>
-      <path d="M157 146 L198 187" fill="none" stroke="#4ee7b7" stroke-width="16" stroke-linecap="round"/>
     </g>
   </g>
 
